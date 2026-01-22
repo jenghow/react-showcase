@@ -4,7 +4,7 @@ import { Sidebar, DEFAULT_MENU } from "./components/sidebar.jsx";
 import { AppRoutes } from "./routes.jsx";
 
 export default function App() {
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(true);
   const [openMenuId, setOpenMenuId] = useState("projects");
 
   return (
